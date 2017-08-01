@@ -19,7 +19,7 @@ kerneltype="Image.gz-dtb"
 jobcount="-j$(grep -c ^processor /proc/cpuinfo)"
 #modules_dir=$kernel_dir/"$zip"/system/lib/modules
 modules_dir=$kernel_dir/"$zip"/modules
-zip_name="$kernel"-"$version"-"$device".zip
+zip_name="$kernel"-"$version"-"$date"-"$device".zip
 export KBUILD_BUILD_USER=ak_abhishek
 export KBUILD_BUILD_HOST=teamdarkness
 
